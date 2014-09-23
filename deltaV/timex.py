@@ -21,18 +21,18 @@ def time_extend(hours):
 def time_s(hours, minutes, seconds):
     
     if hours == 1:
-        hr = ' hour '
+        hr = 'hour'
     else:
-        hr = ' hours '
+        hr = 'hours'
 
     if minutes == 1:
-        mi = ' minute '
+        mi = 'minute'
     else:
-        mi = ' minutes '
+        mi = 'minutes'
 
     if seconds == 1:
-        se = ' second'
+        se = 'second'
     else:
-        se = ' seconds'
+        se = 'seconds'
 
     return hr, mi, se

@@ -1,11 +1,11 @@
-import tsiolkovsky_gleichung
+import tsiolkovsky
 import terminate
 
 term = 'n'
 
 while term == 'n':
     
-    dV = tsiolkovsky_gleichung.dV()
+    dV = tsiolkovsky.dV()
     dV = round(dV, 3)
 
     print()
